@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>חנות מוצרים</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>ברוכים הבאים לחנות של אלי קסטיאלי</h1>
+    <div id="product-list" class="product-list">
+        <!-- מוצרים יתווספו דינמית -->
+    </div>
+    <h2>סיכום הזמנות</h2>
+    <div id="cart-summary">
+        <table>
+            <thead>
+                <tr>
+                    <th>מוצר</th>
+                    <th>מחיר ללקוח</th>
+                    <th>עלות גולמית</th>
+                    <th>הסר</th>
+                </tr>
+            </thead>
+            
+            <tbody id="cart-items">
+                <!-- רשימת מוצרים שנבחרו -->
+            </tbody>
+        </table>
+        <p>סה"כ מחיר ללקוח: <span id="total-client-price">0</span> ש"ח</p>
+        <p>סה"כ עלות גולמית: <span id="total-cost-price">0</span> ש"ח</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
